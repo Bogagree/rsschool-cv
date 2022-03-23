@@ -1,2 +1,1 @@
-# rsschool-cv
-CV1 Markdown and Git Deadline 05 Apr 2022
+https://Bogagree.github.io/rsschool-cv/cv
