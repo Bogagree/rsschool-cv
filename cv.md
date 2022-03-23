@@ -1,1 +1,1 @@
-init cv1 project
+init CV1 project
