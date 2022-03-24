@@ -9,7 +9,8 @@ _____
 [Discord](https://discordapp.com/users/Dmitry_Bogatyrev#4510/)<br>
 [Telegram](https://t.me/Bogatyrev_Dim)<br>
 _____
-### Briefly About Myself:
+
+### Briefly about myself:
 
 I'm 36 y.o. meticulous and innovation-focused individual.<br>
 After university (MISiS) I worked in a European engineering company producing plate heat exchangers. During that period, I’ve gained experience in goods supply phases, including engineering, procurement, construction, inspection, preparation for shipment and transportation.<br>
@@ -25,15 +26,19 @@ This experience gave me the opportunity to manage teams of `50-80 people` from d
 After the pandemic and the complete destruction of tourism, I firmly decided to start working it **IT**.<br>
 Currently, seeking further challenges in **_JS_** and **_FrontEnd_**<br>
 _____
+
 ### Skills and Proficiency:
+
 - HTML5, CSS3;
 - JavaScript Basics;
 - Git, GitHub;
 - VS Code;
 - Adobe Illustrator, CorelDRAW, AutoCAD;
 _____
-### Code example
+### Code example:
+
 ![CodeWars](https://github.com/Bogagree/rsschool-cv/blob/gh-pages/CodeWars.jpg) [7kuy 🚩 What is the flag?](https://www.codewars.com/kata/61efc02e4fd88600343b5c58)<br>
+
 - The flag is hidden in the string variable FLAG
 - The flag is in the format FLAG{CAPITAL-LETTERS-WITH-HYPHEN}
 - The flag couldn't be found from the string literal right away... 
@@ -56,13 +61,17 @@ for (let i = 0; i < FLAG.length; i += 1) {
 flag = "FLAG{IS-IT-EASY-YET-FUN}"
 ````
 _____
+
 ### Courses:
+
 - [Basic HTML and HTML5 on **freeCodeCamp.com**](https://www.freecodecamp.org/learn/responsive-web-design/)<br>
 - [JavaScript Algorithms and Data Structures on **freeCodeCamp.com**](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/)<br>
 - [The Modern JavaScript Tutorial on **learn.javascript.ru**](https://learn.javascript.ru/)<br>
 - RS School 2022Q1 (in progress)
 _____
+
 ### Languages:
-- English - Upper-intermediate (B2)<br>
+
+- English - Upper-intermediate (**B2**)<br>
 - Thai - Basic<br>
 - Russian - Native<br>
