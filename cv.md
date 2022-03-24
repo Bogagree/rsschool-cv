@@ -51,3 +51,4 @@ for (let i = 0; i < FLAG.length; i += 1) {
 
 flag = "FLAG{IS-IT-EASY-YET-FUN}"
 ```
+
