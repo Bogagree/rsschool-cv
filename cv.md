@@ -6,7 +6,11 @@ _____
 **E-mail:** bogatireshka@gmail.com<br>
 **Mob:** +7-928-611-42-84<br>
 **Whatsapp:** +66-84-562-85-77<br>
+<<<<<<< HEAD
 [Discord](https://discordapp.com/users/Dmitry_Bogatyrev#4510/)<br>
+=======
+[Discord:](https://discordapp.com/users/Dmitry_Bogatyrev#4510/<br>
+>>>>>>> parent of 1c49334 (fix: discord link)
 [Telegram](https://t.me/Bogatyrev_Dim)<br>
 _____
 
