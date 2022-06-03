@@ -1,1 +1,3 @@
-https://Bogagree.github.io/rsschool-cv/cv
+# это ссылка на резюме
+
+[https://Bogagree.github.io/rsschool-cv/](https://Bogagree.github.io/rsschool-cv/)
