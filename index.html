@@ -13,7 +13,7 @@
         <img class="photo" src="assets/img/photo.png" alt="Portrait of Dmitry Bogatyrev">
         <div class="hero-text">
           <h1>Dmitry Bogatyrev</h1>
-          <p class="role">Product Owner / Frontend Team Lead</p>
+          <p class="role">Frontend Developer</p>
           <p class="location">Moscow, Russia</p>
         </div>
       </div>
@@ -34,10 +34,9 @@
     <main class="main">
       <section id="about">
         <h2>About me</h2>
-        <p>I am 40 (born 29 September 1985). I am a pragmatic product-minded engineer: first I look at constraints and the cost of a solution, then I take it to delivery. The economics of a task matter as much as its technical quality.</p>
-        <p>Recently I led frontend delivery for banking and event platforms at IT_One, owning services from idea to production. Before IT, I spent a decade as General Manager in Thailand, running international teams of 50-80 people across production, retail, and wholesale.</p>
-        <p>I have trained in a theatre studio for five years. It keeps the creative side active and helps with presentations, stakeholder conversations, and defending product decisions.</p>
-        <p>I am currently studying at RS School to keep my frontend engineering sharp, and I am looking for the next role at the intersection of product and frontend.</p>
+        <p>Frontend developer with 5+ years of commercial experience in banking and corporate products. I build and grow complex React and TypeScript web applications: design new services, work with legacy, shape architecture, and improve performance and delivery quality.</p>
+        <p>Main stack: React, TypeScript, Next.js, Redux Toolkit, Zustand, TanStack Query, REST/GraphQL, React Hook Form, Zod. I use Feature-Sliced Design, cover critical code with unit and E2E tests, and work with CI/CD, Docker, GitLab CI, GitHub Actions, and Sentry.</p>
+        <p>I work with PMs, POs, UI/UX, backend developers, and QA: task decomposition, release prep, and production on-call. I spoke at an internal meetup on non-obvious arguments for Redux.</p>
       </section>
 
       <section id="contacts">
@@ -56,15 +55,13 @@
       <section id="skills">
         <h2>Skills</h2>
         <ul class="skills-list">
-          <li>JavaScript, TypeScript</li>
-          <li>HTML5, CSS3, CSS Modules</li>
-          <li>React, Next.js</li>
-          <li>Git, GitHub</li>
-          <li>Agile / Scrum, Product Owner</li>
-          <li>Requirements, backlog management, prioritization</li>
-          <li>Task setting for developers, acceptance</li>
-          <li>Business analysis, Customer Journey, stakeholders</li>
-          <li>B2B product delivery</li>
+          <li>React, Next.js, JavaScript, TypeScript</li>
+          <li>Redux Toolkit, RTK Query, Zustand, TanStack Query</li>
+          <li>React Hook Form, Zod, Material UI, Storybook</li>
+          <li>HTML5, CSS3, Sass, CSS Modules</li>
+          <li>Git, GitHub Actions, GitLab CI, Docker, CI/CD</li>
+          <li>Jest, TDD, Sentry</li>
+          <li>Feature-Sliced Design</li>
         </ul>
       </section>
 
@@ -112,30 +109,35 @@
         <h2>Work experience</h2>
 
         <article class="job">
-          <h3>Development Team Lead / Product Owner</h3>
+          <h3>Frontend Developer</h3>
           <p class="job-meta">IT_One, Moscow · September 2024 — August 2026</p>
-          <p>Corporate B2B platform for offline, online, and hybrid events (banking client). Ecosystem of 8 services: administration, live streams, email invitations, tickets, PWA.</p>
+          <p>Corporate event platform for Gazprombank and the public sector: 8 related UI services for event administration, live streams, email campaigns, ticket generation, and PWA.</p>
           <ul>
-            <li>Led a team of 17, 2-3 releases per month; ran 1-to-1s and aligned developer goals with business outcomes</li>
-            <li>Owned three services from idea to production: embeddable video player, dynamic form builder, email and PDF ticket service</li>
-            <li>Translated bank UI/UX requirements into team scenarios and delivery</li>
-            <li>Survey builder: client managers assemble forms without development tickets</li>
-            <li>PDF ticket generation: 6-7s down to 1-2s, survived a major event peak</li>
-            <li>Reworked emails so Outlook (90% of the audience, limited CSS) rendered predictably</li>
-            <li>Launched an embeddable player and streaming service on the event page without breaking the core flow</li>
+            <li>Designed and launched new services: HLS video player, dynamic forms, email campaigns, and PDF ticket generation</li>
+            <li>Built a dynamic UI library on JSON Schema and @rjsf/core, removing duplicated validation between frontend and backend and enabling flexible participant surveys</li>
+            <li>Migrated the email and ticket generation service from Node.js 12 to Node.js 20 and upgraded Puppeteer from 2 to 24</li>
+            <li>Cut PDF ticket generation time from 6-7 seconds to 1-2 seconds</li>
+            <li>Built an embeddable HLS video player in an iframe with host-page communication via postMessage</li>
+            <li>Introduced Feature-Sliced Design in new services; planned work and aligned decisions with PM, PO, and UI/UX</li>
+            <li>Built a solution for correct email rendering in Outlook with limited CSS support</li>
+            <li>Spoke at a meetup on using Redux in legacy code, tight deadlines, and team development</li>
           </ul>
         </article>
 
         <article class="job">
-          <h3>Frontend Team Lead</h3>
+          <h3>Frontend Developer</h3>
           <p class="job-meta">IT_One, Moscow · June 2023 — August 2024</p>
-          <p>Custom development in a bank contour: retail credit pipeline and electronic registration. Mortgage was the main focus.</p>
+          <p>Retail credit pipeline and electronic property registration systems for Gazprombank.</p>
           <ul>
-            <li>End-to-end scenarios: pipeline automation, remote mortgage with Gosuslugi Goskey signature, electronic registration</li>
-            <li>Passport recognition to autofill forms and cut manual work</li>
-            <li>Predictable delivery: trunk-based development, quality gates, feature toggles, production incident review</li>
-            <li>API contract with backend and full-scenario acceptance</li>
-            <li>Gradual legacy migration to TypeScript without stopping delivery</li>
+            <li>Developed new features for the credit pipeline and Rosreestr electronic registration</li>
+            <li>Implemented a remote mortgage flow with electronic signature via the Goskey app</li>
+            <li>With a backend developer, added passport recognition: scan upload, OCR, and form autofill</li>
+            <li>Took over a legacy project and organized a gradual TypeScript migration</li>
+            <li>Removed committed node_modules (the repo was about 1 GB), which sped up CI/CD and enabled automated builds</li>
+            <li>Set up Jest, started unit tests for critical code, and took part in contract testing</li>
+            <li>Introduced Sentry for error monitoring</li>
+            <li>Helped move from GitFlow to trunk-based development, SemVer, quality gates, feature toggles, and coverage control</li>
+            <li>Prepared releases, fixed production defects, and decomposed tasks</li>
           </ul>
         </article>
 
@@ -144,39 +146,33 @@
           <p class="job-meta">IRBIS, Rostov-on-Don · November 2021 — June 2023</p>
           <p>Websites and corporate solutions for a petrol station network, a furniture factory, and a developer.</p>
           <ul>
-            <li>Built features, fixed defects, planned work with the Tech Lead and managers</li>
-            <li>Migrated a project from React to Next.js in two weeks and moved styled-components to CSS Modules</li>
-            <li>Built a Next.js landing page</li>
+            <li>Built new features, fixed defects, and planned work with the Tech Lead and managers</li>
+            <li>Migrated a project from React to Next.js in two weeks and moved styled-components to CSS Modules because of Next.js version limits</li>
+            <li>Built a landing page on Next.js</li>
             <li>Set up Yandex Metrica and Yandex Maps API in three days</li>
-            <li>Helped build a configurable site constructor on Next.js and Payload CMS</li>
+            <li>Helped build a configurable site constructor on Next.js and Payload CMS with an admin panel</li>
           </ul>
         </article>
 
         <article class="job">
-          <h3>General Manager</h3>
-          <p class="job-meta">Erawadee Thailand · September 2011 — May 2021</p>
-          <p>International business: production, retail, and wholesale via partner companies in Thailand, Russia, CIS, Indonesia, and Vietnam. Team of 50-80 people.</p>
+          <h3>Frontend Developer</h3>
+          <p class="job-meta">Allthaiherbs · July 2020 — November 2021</p>
           <ul>
-            <li>Owned the full product cycle: lineup, pricing, partner promise, availability</li>
-            <li>Repriced 30-40% of key SKUs in 2019 and grew sales</li>
-            <li>Opened 5 retail stores, including a 1,200 m² shop floor in Phuket</li>
-            <li>Annual turnover of $10M before the pandemic</li>
+            <li>HTML/CSS/SCSS layout, product support, hosting setup, frontend development, optimization, and debugging</li>
+            <li>Unit tests and SEO</li>
+            <li>CMS: WordPress, Moguta, OpenCart, Tilda</li>
           </ul>
-        </article>
-
-        <article class="job">
-          <h3>Sales Engineer</h3>
-          <p class="job-meta">Ridan · September 2009 — May 2011</p>
-          <p>Heat-exchange equipment for boiler and mini-CHP manufacturers and design-and-build companies in Moscow and the Moscow region.</p>
         </article>
       </section>
 
       <section id="education">
         <h2>Education</h2>
         <ul>
+          <li>2024 — Advanced React, IBS</li>
+          <li>2022 — IT-Incubator, React / Redux / TypeScript / SCSS, Frontend developer</li>
+          <li>2022 — EF Standard English Test, C1 Advanced (65/100)</li>
+          <li>2021 — Frontend (stage0, stage1), The Rolling Scopes School, HTML / CSS / vanilla JS</li>
           <li>2008 — National University of Science and Technology MISIS, Moscow. Technology, Metal Forming (OMD), pipe production</li>
-          <li>2022 — EF Standard English Test</li>
-          <li>RS School, JavaScript / Frontend (in progress)</li>
         </ul>
       </section>
 
