@@ -1,0 +1,25 @@
+---
+description: Do not add spare, unused, or over-engineered solutions
+alwaysApply: true
+---
+
+# No spare or redundant solutions
+
+Ship only what is needed for the current request. Do not leave unused alternatives "just in case".
+
+- Do not add unused CSS classes, modifiers, flags, or config
+- Do not implement several variants when one solution is enough
+- Do not introduce abstractions, wrappers, or naming schemes that are not used yet
+- If the user asks for options, show them in chat and apply only the chosen one
+
+```css
+/* BAD: spare modifier that is never used in HTML */
+.footer-course--cream {
+  background: #f4ead7;
+}
+
+/* GOOD: the one style that is actually applied */
+.footer-course {
+  background: #fff;
+}
+```
