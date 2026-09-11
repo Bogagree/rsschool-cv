@@ -203,14 +203,7 @@ code {
   padding: 8px 12px;
   border-radius: 8px;
   border: 1px solid transparent;
-}
-
-.footer-course--light {
   background: #fff;
-}
-
-.footer-course--cream {
-  background: #f4ead7;
 }
 
 .footer-course:hover {
