@@ -197,9 +197,29 @@ code {
   margin: 0;
 }
 
+.footer-course {
+  display: inline-flex;
+  align-items: center;
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: 1px solid transparent;
+}
+
+.footer-course--light {
+  background: #fff;
+}
+
+.footer-course--cream {
+  background: #f4ead7;
+}
+
+.footer-course:hover {
+  border-color: #d7c09a;
+}
+
 .footer-logo {
   display: block;
-  height: 32px;
+  height: 36px;
   width: auto;
 }
 
