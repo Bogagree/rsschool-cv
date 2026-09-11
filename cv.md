@@ -12,7 +12,7 @@ _____
 
 ### Briefly about myself:
 
-I'm 36 y.o. meticulous and innovation-focused individual.<br>
+I'm 40 y.o. meticulous and innovation-focused individual.<br>
 After university (MISiS) I worked in a European engineering company producing plate heat exchangers. During that period, I’ve gained experience in goods supply phases, including engineering, procurement, construction, inspection, preparation for shipment and transportation.<br>
 
 All my life I've dreamed about relocate abroad, and when my friend invited me to work in tourism, without any hesitation I immediately agreed and for the last 10 years I lived and worked in **Thailand**.<br>
