@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dmitry Bogatyrev — CV</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="page" id="top">
+    <header class="header">
+      <div class="hero">
+        <img class="photo" src="assets/img/photo.png" alt="Portrait of Dmitry Bogatyrev">
+        <div class="hero-text">
+          <h1>Dmitry Bogatyrev</h1>
+          <p class="role">Frontend Developer</p>
+          <p class="location">Moscow, Russia</p>
+        </div>
+      </div>
+      <nav class="nav" aria-label="Page sections">
+        <ul class="nav-list">
+          <li><a href="#about">About</a></li>
+          <li><a href="#contacts">Contacts</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#code">Code</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#languages">Languages</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="main">
+      <section id="about">
+        <h2>About me</h2>
+        <p>Frontend developer with 5+ years of commercial experience in banking and corporate products. I build and grow
+          complex React and TypeScript web applications: design new services, work with legacy, shape architecture, and
+          improve performance and delivery quality.</p>
+        <p>Main stack: React, TypeScript, Next.js, Redux Toolkit, Zustand, TanStack Query, REST/GraphQL, React Hook
+          Form, Zod. I use Feature-Sliced Design, cover critical code with unit and E2E tests, and work with CI/CD,
+          Docker, GitLab CI, GitHub Actions, and Sentry.</p>
+        <p>I work with PMs, POs, UI/UX, backend developers, and QA: task decomposition, release prep, and production
+          on-call. I spoke at an internal meetup on non-obvious arguments for Redux.</p>
+      </section>
+
+      <section id="contacts">
+        <h2>Contacts</h2>
+        <ul class="contact-list">
+          <li>Phone: <a href="tel:+79286114284">+7 (928) 611-42-84</a></li>
+          <li>Email: <a href="mailto:dmitriibogatirev@mail.ru">dmitriibogatirev@mail.ru</a></li>
+          <li>Telegram: <a href="https://t.me/Bogatyrev_Dim">@Bogatyrev_Dim</a></li>
+          <li>GitHub: <a href="https://github.com/Bogagree">Bogagree</a></li>
+          <li>LinkedIn: <a href="https://www.linkedin.com/in/dmitry-bogatyrev-4b679a230">dmitry-bogatyrev</a></li>
+          <li>Discord: Dmitry_Bogatyrev</li>
+          <li>Codewars: <a href="https://www.codewars.com/users/Bogagree">Bogagree</a></li>
+        </ul>
+      </section>
+
+      <section id="skills">
+        <h2>Skills</h2>
+        <ul class="skills-list">
+          <li>React, Next.js, JavaScript, TypeScript</li>
+          <li>Redux Toolkit, RTK Query, Zustand, TanStack Query</li>
+          <li>React Hook Form, Zod, Material UI, Storybook</li>
+          <li>HTML5, CSS3, Sass, CSS Modules</li>
+          <li>Git, GitHub Actions, GitLab CI, Docker, CI/CD</li>
+          <li>Jest, TDD, Sentry</li>
+          <li>Feature-Sliced Design</li>
+        </ul>
+      </section>
+
+      <section id="code">
+        <h2>Code example</h2>
+        <p>
+          Solution for the
+          <a href="https://www.codewars.com/kata/54ba84be607a92aa900000f1">Codewars Isograms</a>
+          kata:
+        </p>
+        <pre><code>function isIsogram(str) {
+  const letters = str.toLowerCase();
+  return new Set(letters).size === letters.length;
+}</code></pre>
+      </section>
+
+      <section id="projects">
+        <h2>Projects</h2>
+        <ul class="projects-list">
+          <li>
+            <a href="https://github.com/Bogagree/rsschool-cv">RS School CV</a>
+            — this CV page (HTML, CSS, Git)
+          </li>
+          <li>
+            <a href="https://bogagree.github.io/my-portfolio/">Personal portfolio</a>
+            —
+            <a href="https://github.com/Bogagree/my-portfolio">source</a>
+          </li>
+          <li>
+            <a href="https://github.com/Bogagree/nextJS-drug-and-drop-kids-sorter">Kids sorter</a>
+            — Next.js game for counting and letters
+          </li>
+          <li>
+            <a href="https://github.com/Bogagree/samurai-way-main">Social network prototype</a>
+            — React class components
+          </li>
+          <li>
+            <a href="https://github.com/Bogagree/cards_project">Cards project</a>
+            — React learning app
+          </li>
+        </ul>
+      </section>
+
+      <section id="experience">
+        <h2>Work experience</h2>
+
+        <article class="job">
+          <h3>Frontend Developer</h3>
+          <p class="job-meta">IT_One, Moscow · September 2024 — August 2026</p>
+          <p>Corporate event platform for Gazprombank and the public sector: 8 related UI services for event
+            administration, live streams, email campaigns, ticket generation, and PWA.</p>
+          <ul>
+            <li>Designed and launched new services: HLS video player, dynamic forms, email campaigns, and PDF ticket
+              generation</li>
+            <li>Built a dynamic UI library on JSON Schema and @rjsf/core, removing duplicated validation between
+              frontend and backend and enabling flexible participant surveys</li>
+            <li>Migrated the email and ticket generation service from Node.js 12 to Node.js 20 and upgraded Puppeteer
+              from 2 to 24</li>
+            <li>Cut PDF ticket generation time from 6-7 seconds to 1-2 seconds</li>
+            <li>Built an embeddable HLS video player in an iframe with host-page communication via postMessage</li>
+            <li>Introduced Feature-Sliced Design in new services; planned work and aligned decisions with PM, PO, and
+              UI/UX</li>
+            <li>Built a solution for correct email rendering in Outlook with limited CSS support</li>
+            <li>Spoke at a meetup on using Redux in legacy code, tight deadlines, and team development</li>
+          </ul>
+        </article>
+
+        <article class="job">
+          <h3>Frontend Developer</h3>
+          <p class="job-meta">IT_One, Moscow · June 2023 — August 2024</p>
+          <p>Retail credit pipeline and electronic property registration systems for Gazprombank.</p>
+          <ul>
+            <li>Developed new features for the credit pipeline and Rosreestr electronic registration</li>
+            <li>Implemented a remote mortgage flow with electronic signature via the Goskey app</li>
+            <li>With a backend developer, added passport recognition: scan upload, OCR, and form autofill</li>
+            <li>Took over a legacy project and organized a gradual TypeScript migration</li>
+            <li>Removed committed node_modules (the repo was about 1 GB), which sped up CI/CD and enabled automated
+              builds</li>
+            <li>Set up Jest, started unit tests for critical code, and took part in contract testing</li>
+            <li>Introduced Sentry for error monitoring</li>
+            <li>Helped move from GitFlow to trunk-based development, SemVer, quality gates, feature toggles, and
+              coverage control</li>
+            <li>Prepared releases, fixed production defects, and decomposed tasks</li>
+          </ul>
+        </article>
+
+        <article class="job">
+          <h3>Frontend Developer</h3>
+          <p class="job-meta">IRBIS, Rostov-on-Don · November 2021 — June 2023</p>
+          <p>Websites and corporate solutions for a petrol station network, a furniture factory, and a developer.</p>
+          <ul>
+            <li>Built new features, fixed defects, and planned work with the Tech Lead and managers</li>
+            <li>Migrated a project from React to Next.js in two weeks and moved styled-components to CSS Modules because
+              of Next.js version limits</li>
+            <li>Built a landing page on Next.js</li>
+            <li>Set up Yandex Metrica and Yandex Maps API in three days</li>
+            <li>Helped build a configurable site constructor on Next.js and Payload CMS with an admin panel</li>
+          </ul>
+        </article>
+
+        <article class="job">
+          <h3>Frontend Developer</h3>
+          <p class="job-meta">Allthaiherbs · July 2020 — November 2021</p>
+          <ul>
+            <li>HTML/CSS/SCSS layout, product support, hosting setup, frontend development, optimization, and debugging
+            </li>
+            <li>Unit tests and SEO</li>
+            <li>CMS: WordPress, Moguta, OpenCart, Tilda</li>
+          </ul>
+        </article>
+      </section>
+
+      <section id="education">
+        <h2>Education</h2>
+        <ul>
+          <li>2024 — Advanced React, IBS</li>
+          <li>2022 — IT-Incubator, React / Redux / TypeScript / SCSS, Frontend developer</li>
+          <li>2022 — EF Standard English Test, C1 Advanced (65/100)</li>
+          <li>2021 — Frontend (stage0, stage1), The Rolling Scopes School, HTML / CSS / vanilla JS</li>
+          <li>2008 — National University of Science and Technology MISIS, Moscow. Technology, Metal Forming (OMD), pipe
+            production</li>
+        </ul>
+      </section>
+
+      <section id="languages">
+        <h2>Languages</h2>
+        <ul>
+          <li>Russian — Native</li>
+          <li>English — C1 Advanced</li>
+          <li>Thai — A2 Elementary</li>
+        </ul>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <a href="https://github.com/Bogagree">GitHub: Bogagree</a>
+      <p class="footer-year">2026</p>
+      <a class="footer-course" href="https://rs.school/courses/short-track">
+        <img class="footer-logo" src="assets/svg/rs-school-logo.svg" alt="RS School logo">
+      </a>
+    </footer>
+  </div>
+  <a class="to-top" href="#top">Up</a>
+  <script>
+    var toTop = document.querySelector('.to-top');
+    function updateToTop() {
+      toTop.classList.toggle('is-visible', window.scrollY > 200);
+    }
+    window.addEventListener('scroll', updateToTop);
+    updateToTop();
+  </script>
+</body>
+
+</html>
