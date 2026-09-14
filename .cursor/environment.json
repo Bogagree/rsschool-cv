@@ -1,0 +1,17 @@
+{
+  "name": "rsschool-cv",
+  "start": "true",
+  "terminals": [
+    {
+      "name": "static-server",
+      "command": "python3 -m http.server 3000 --bind 0.0.0.0",
+      "description": "Static HTTP server on port 3000"
+    }
+  ],
+  "ports": [
+    {
+      "name": "static-server",
+      "port": 3000
+    }
+  ]
+}
