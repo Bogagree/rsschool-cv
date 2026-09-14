@@ -2,3 +2,4 @@
 
 [https://Bogagree.github.io/rsschool-cv/](https://Bogagree.github.io/rsschool-cv/)
 
+[https://Bogagree.github.io/rsschool-cv/cv](https://Bogagree.github.io/rsschool-cv/cv)
